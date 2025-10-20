@@ -5,10 +5,10 @@ title: "People"
 
 <div class="main-section-wrap">
   <div class="title-wrap">
-    <h3>Faculty</h3>
+    <h3>Director</h3>
   </div>
   <section class="people-grid">
-  {% for person in site.data.people.faculty %}
+  {% for person in site.data.people.director %}
     {% include people-item.html
       name=person.name
       role=person.role
@@ -20,7 +20,8 @@ title: "People"
   </section>
 </div>
 
-<div class="main-section-wrap">
+<!-- #FIXME: For future post docs -->
+<!-- <div class="main-section-wrap">
   <div class="title-wrap">
     <h3>Post Docs</h3>
   </div>
@@ -35,7 +36,7 @@ title: "People"
       link=person.link %}
   {% endfor %}
   </section>
-</div>
+</div> -->
 
 <div class="main-section-wrap">
   <div class="title-wrap">
@@ -54,7 +55,8 @@ title: "People"
   </section>
 </div>
 
-<div class="main-section-wrap">
+<!-- #FIXME: For future master inters/students -->
+<!-- <div class="main-section-wrap">
   <div class="title-wrap">
     <h3>Masters students</h3>
   </div>
@@ -69,7 +71,7 @@ title: "People"
       link=person.link %}
   {% endfor %}
   </section>
-</div>
+</div> -->
 
 <div class="main-section-wrap">
   <div class="title-wrap">
