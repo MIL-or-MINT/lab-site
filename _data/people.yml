@@ -31,8 +31,8 @@ current_phd:
     role: PhD Student
     department: Technology and Social Behavior
     school: Northwestern University
-    image: assets/images/people-ziyang-guo.jpeg
-    link:
+    image: assets/images/people-huaman-sun.jpeg
+    link: https://www.linkedin.com/in/huaman-sun-a44723302/
 
 # current_masters:
 #   - name: Noah Shen
