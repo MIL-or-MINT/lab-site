@@ -25,8 +25,8 @@ current_phd:
     role: PhD Student
     department: Computer Science
     school: Northwestern University
-    image: assets/images/people-ziyang-guo.jpeg
-    link:
+    image: assets/images/people-dong-shu.jpeg
+    link: https://tizzzzy.github.io/dongshu.github.io/
   - name: Huaman Sun
     role: PhD Student
     department: Technology and Social Behavior
