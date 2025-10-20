@@ -1,128 +1,85 @@
-faculty:
+director:
   - name: Jessica Hullman
-    role: Ginni Rometty Associate Professor
+    role: Ginni Rometty Professor
     department: Computer Science
     school: Northwestern University
     image: assets/images/people-jessica-hullman.jpeg
     link: http://users.eecs.northwestern.edu/~jhullman/
-  - name: Matthew Kay
-    role: Assistant Professor
-    department: Computer Science, Communication
-    school: Northwestern University
-    image: assets/images/people-matthew-kay.jpeg
-    link: http://www.mjskay.com/
 
-current_postdoc:
-  - name: Fumeng Yang
-    role: Post Doc Researcher
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-fumeng-yang.png
-    link: http://www.fmyang.com/
+# current_postdoc:
+#   - name: Fumeng Yang
+#     role: Post Doc Researcher
+#     department: Computer Science
+#     school: Northwestern University
+#     image: assets/images/people-fumeng-yang.png
+#     link: http://www.fmyang.com/
 
 current_phd:
-  - name: Brian Hall
-    role: PhD Student
-    department: School of Information
-    school: University of Michigan
-    image: assets/images/people-brian-hall.jpeg
-  - name: Paula Kayongo
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-paula-kayongo.jpeg
-  - name: Dongping Zhang
-    role: PhD Student
-    department: Technology & Social Behavior
-    school: Northwestern University
-    image: assets/images/people-dongping-zhang.jpeg
-    link: https://www.dpzhang.com/
-  - name: Abhraneel Sarma
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-abhraneel-sarma.jpeg
-    link: https://abhsarma.github.io/
-  - name: Hyeok Kim
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-hyeok-kim.png
-    link: https://hyeok.me/
-  - name: Priyanka Nanayakkara
-    role: PhD Student
-    department: Technology & Social Behavior
-    school: Northwestern University
-    image: assets/images/people-priyanka-nanayakkara.jpeg
-    link: https://priyakalot.github.io/
-  - name: Maryam Hedayati
-    role: PhD Student
-    department: Computer Science + Learning Sciences 
-    school: Northwestern University
-    image: assets/images/people-maryam-hedayati.jpeg
-    link: https://www.linkedin.com/in/maryamhedayati/
-  - name: Charles Cui
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-charles-cui.png
-    link: https://yccui.github.io/
-  - name: Sheng Long
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-sheng-long.jpeg
-  - name: Taewook Kim
-    role: PhD Student
-    department: Technology & Social Behavior
-    school: Northwestern University
-    image: assets/images/people-taewook-kim.png
-    link: https://taewookkim.com/
-  - name: Lily Ge
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-lily-ge.jpeg
-    link: https://lilyge.com/
   - name: Ziyang Guo
     role: PhD Student
     department: Computer Science
     school: Northwestern University
     image: assets/images/people-ziyang-guo.jpeg
     link: https://guoziyang27.github.io/
-  - name: Mandi Cai
+  - name: Dong Shu
     role: PhD Student
-    department: Technology & Social Behavior
-    school: Northwestern University
-    image: assets/images/people-mandi-cai.jpeg
-    link: https://mandi-cai.com/
-
-current_masters:
-  - name: Noah Shen
-    role: Masters Student
     department: Computer Science
     school: Northwestern University
-    image: assets/images/people-noah-shen.jpeg
+    image: assets/images/people-ziyang-guo.jpeg
+    link:
+  - name: Huaman Sun
+    role: PhD Student
+    department: Technology and Social Behavior
+    school: Northwestern University
+    image: assets/images/people-ziyang-guo.jpeg
+    link:
+
+# current_masters:
+#   - name: Noah Shen
+#     role: Masters Student
+#     department: Computer Science
+#     school: Northwestern University
+#     image: assets/images/people-noah-shen.jpeg
 
 alumni:
-  - name: Xiaoying Pu
-    position: Post Doc at UC Merced
-    link: https://xiaoyingpu.github.io/
+  - name: Paula Kayongo
+    position: Research Scientist at Uber Technologies, Inc.
+  - name: Abhraneel Sarma
+    position: Postdoc at TU Graz
+    link: https://abhsarma.github.io/
+  - name: Priyanka Nanayakkara
+    position: Postdoc at Harvard University
+    link: https://priyakalot.github.io/
+  - name: Hyeok Kim
+    position: Postdoc at University of Washington
+    link: https://hyeok.me/
+  - name: Dongping Zhang
+    position: Research Scientist at Endeavor Health
+    link: https://www.dpzhang.com/
+  - name: Fumeng Yang
+    position: Faculty at University of Maryland, College Park
+    link: https://www.fmyang.com/
+  - name: Angelos Chatzimparmpas
+    position: Faculty at Utrecht University
+    link: https://www.angeloschatzimparmpas.com/
+  - name: Noah Shen
+    position: Data Scientist at Intelligent Medicine Exchange
+    link: https://noahshen.com/
   - name: Alex Kale
     position: Faculty at University of Chicago
     link: https://people.cs.uchicago.edu/~kalea/
   - name: Yea-Seul Kim
-    position: Faculty at University of Wisconsin, Madison
-    link: https://students.washington.edu/yeaseul1/
+    position: Visualization Specialist at Apple Inc.
+    link: https://www.linkedin.com/in/yeaseulkim/
   - name: Alireza Karduni
-    position: Computational social scientist / Design Lead at IDEO
+    position: Faculty at Simon Fraser University
     link: https://www.karduni.com/
   - name: Emily Wall
     position: Faculty at Emory University
     link: https://emilywall.github.io/
   - name: Lace Padilla
-    position: Faculty at UC Merced
-    link: http://space.ucmerced.edu/
+    position: Faculty at Northeastern University
+    link: https://www.lacepadilla.com/
   - name: Emily Qiao
     position: MP Biomedicals
   - name: Francis Nguyen
