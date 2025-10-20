@@ -1,6 +1,6 @@
 # MU Collective Website
 
-This is (currently) an in-progress repo for mucollective.co renewal. This website will be built on `Jekyll`.
+This is (currently) an in-progress repo for Jessica's lab site. This website is built on `Jekyll`.
 
 ## Staff
 
@@ -8,51 +8,52 @@ Hyeok Kim - rebuilding the template :man_technologist:.
 
 Lily Ge - building the individual md files and managing the website after it is done :woman_pilot:.
 
-Fumeng Yang - writing documentation & nudging style :woman_juggling:
+Fumeng Yang - writing documentation & nudging style :woman_juggling:.
+
+Dongping Zhang - standing on the shoulders of these giants and put the final nail in the coffin :hammer:.
 
 ## How to update (for everyone)
 
 First, you should find the information you need to prepare on this page (looking for `[for everyone]` notation).
 
-Second, you send them to the master person in the Slack channel `#logo-and-website` (e.g., @) or via DM. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
+Second, you send them to the master person in the Slack channel `#logo-and-website` (e.g., @) or via DM. The 2025 master is **Dongping Zhang**.
 
 ## How to update (for the master person)
 
-Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a developer, you should not need a local setup. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
+Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a developer, you should not need a local setup.
 
-In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anything else, it means you are doing something wrong."__
+In sum, you only need to touch `_data`, `_posts`, and `assets`. **Hyeok: "If you are touching anything else, it means you are doing something wrong."**
 
-After your edits, wait for a few minutes and check out [Mu website](https://mucollective.github.io/) and you should be able to see the updates.
+After your edits, wait for a few minutes and check out [#TODO Site](#TODO TBD) and you should be able to see the updates.
 
 ### Add a [paper](https://mucollective.github.io/publications) :page_facing_up
 
 The two folders you have to pay attention to are:
 
-* `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper.
-* `assets`: This folder provides the actual thumbnails and PDFs.
+- `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper.
+- `assets`: This folder provides the actual thumbnails and PDFs.
 
 `[for everyone]` To add a paper, you need to prepare the followings:
 
-* __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
-* __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values. The master person prepares this file. 
-* __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-awesome-paper.pdf`
-* __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters.
-* __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. We strongly suggest to use a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px).
+- **a unique ID**: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
+- **a `.md` file** (see below) that will be uploaded to `_posts` : you **must** name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values. The master person prepares this file.
+- **the paper PDF** that will be uploaded to `assets/papers/`: you **must** name it `yyyy-awesome-paper.pdf`
+- **a teaser/banner** that will be uploaded to `assets/images/`: you **must** name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters.
+- **a thumbnail** that will be uploaded to `assets/images/`: you **must** name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. We strongly suggest to use a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px).
 <!-- The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule such that we don't have to run resize scripts for you!) -->
-* authors, abstract, venue, year, awards
-* other links you want to show and their names
+- authors, abstract, venue, year, awards
+- other links you want to show and their names
 
 #### The `.md` file
 
-This file __must__ be called `yyyy-mm-dd-awesome-paper.md` It provides entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
-
+This file **must** be called `yyyy-mm-dd-awesome-paper.md` It provides entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
 
 A toy example is below. You can copy it as your template file. (`[for everyone]` Here, you can get a sense of what information you need to prepare, but the master person will prepare the `.md`.)
 
 ```{yaml}
 ---
 layout: paper
-category: paper 
+category: paper
 title:  "This is an awesome paper"
 authors: "Author 1, Author 2, Author 3"
 venue: "The Lucky Conference/Journal"x
@@ -70,7 +71,7 @@ additionals:
 ---
 
 <!-- abstract -->
-This is our awesome paper published at the Lucky Conference. 
+This is our awesome paper published at the Lucky Conference.
 
 <h3><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
   <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
@@ -94,21 +95,21 @@ This is our awesome paper published at the Lucky Conference.
 
 Explanation:
 
-* __layout: paper__ - this must be `paper`.
-* __category: paper__ - This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`.
-* __title...pdf__ - ordinary stuff. Notice that you must follow the naming style!
-* (optional) __bestPaper__ and __honorable__ - true or false. You can also skip it.
-* (optional) __github__ and __supplementary__ - You can also skip it.
-* (optional) __additionals__ - additional links and a name to show. You can also skip it.
-* To get citation: access the original publisher's website to get the Bibtex (strongly recommended) and APA format (optional).
+- **layout: paper** - this must be `paper`.
+- **category: paper** - This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`.
+- **title...pdf** - ordinary stuff. Notice that you must follow the naming style!
+- (optional) **bestPaper** and **honorable** - true or false. You can also skip it.
+- (optional) **github** and **supplementary** - You can also skip it.
+- (optional) **additionals** - additional links and a name to show. You can also skip it.
+- To get citation: access the original publisher's website to get the Bibtex (strongly recommended) and APA format (optional).
   - As long as you have DOI, details other than authors, year, title, venue are not required.
   - For Bibtex, use [this tool](https://flamingtempura.github.io/bibtex-tidy/index.html) to standardize.
 
 Now,
 
-* upload `yyyy-mm-dd-awesome-paper.md` to `_posts`
-* upload `yyyy-awesome-paper.pdf` to `assets/papers`
-* upload `paper-banner-awesome-paper.png` and `paper-thumb-awesome-paper.png` to `assets/images`
+- upload `yyyy-mm-dd-awesome-paper.md` to `_posts`
+- upload `yyyy-awesome-paper.pdf` to `assets/papers`
+- upload `paper-banner-awesome-paper.png` and `paper-thumb-awesome-paper.png` to `assets/images`
 
 You are all set.
 
@@ -116,9 +117,9 @@ You are all set.
 
 `[for everyone]` You need to prepare the followings:
 
-* A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?) You must follow the naming style `people-...`.
+- A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?) You must follow the naming style `people-...`.
 
-You only have to __edit__ `_data/people.yml` file and upload the image to `assets/images`.
+You only have to **edit** `_data/people.yml` file and upload the image to `assets/images`.
 
 `[for everyone]` An example:
 
@@ -134,8 +135,8 @@ You only have to __edit__ `_data/people.yml` file and upload the image to `asset
 
 Explanation:
 
-* For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
-* For alumni, you should provide their `name`, current `position`, and website url (`link`).
+- For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
+- For alumni, you should provide their `name`, current `position`, and website url (`link`).
 
 ### Edit [research area](https://mucollective.github.io/research) :mortar_board
 
@@ -144,26 +145,26 @@ You only need to edit `_data/research_areas.yml` file.
 An example:
 
 ```{yaml}
-- name: Communicating unquantified uncertainty 
-  category: unquant-uncertainty 
-  desc: We aim at communicating unquantified uncertainty. 
+- name: Communicating unquantified uncertainty
+  category: unquant-uncertainty
+  desc: We aim at communicating unquantified uncertainty.
   image:
     - "assets/images/research-image-...."
 ```
 
 Explanation:
 
-* __name__ is the name to show in the list
-* __category__  is the catergory, which will be used to match and grab papers.
-* __desc__ is the description.
-* __image__ is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
+- **name** is the name to show in the list
+- **category** is the catergory, which will be used to match and grab papers.
+- **desc** is the description.
+- **image** is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
 
 ### Add or edit a [public release](https://mucollective.github.io/public-release) :earth_americas
 
 `[for everyone]` You need to prepare the followings:
 
-* URLs to your release.
-* The categories of your releases: software, prototype, or something else. Examples are listed below.
+- URLs to your release.
+- The categories of your releases: software, prototype, or something else. Examples are listed below.
 
 There are two files `_data/prototype.yml` and `_data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory.
 
@@ -191,7 +192,7 @@ An example from `_data/software.yml`:
     - type: Code Repository
       link: https://github.com/mjskay/ggdist
     - type: CRAN
-      link: https://cloud.r-project.org/web/packages/ggdist/index.html 
+      link: https://cloud.r-project.org/web/packages/ggdist/index.html
   description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
 ```
 
@@ -209,7 +210,7 @@ You only need to edit `_data/talk.yml` file.
 
 ### Edit text on homepage on the top
 
-* Text on the top left section: `_data/home_text.yml`
+- Text on the top left section: `_data/home_text.yml`
 
 ## How to update (for developer)
 
@@ -220,10 +221,10 @@ Take a look on [this document for installing and configuring](https://docs.githu
 ### How to run it locally
 
 1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview:
-  a. `brew install ruby-install chruby`.  
-  b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.  
-  c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.
-  d. Restart your terminal and run `ruby-install ruby 3.1.2`.  
-  e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal.  
+   a. `brew install ruby-install chruby`.  
+   b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.  
+   c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2` This is the version we are going to use.
+   d. Restart your terminal and run `ruby-install ruby 3.1.2`.  
+   e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal.
 2. Install Jekyll: `gem install jekyll` You might need to run this using `sudo`.
 3. Run: `jekyll serve`
