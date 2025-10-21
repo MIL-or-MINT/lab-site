@@ -21,6 +21,18 @@ current_phd:
     school: Northwestern University
     image: assets/images/people-ziyang-guo.jpeg
     link: https://guoziyang27.github.io/
+  - name: Negar Kamali
+    role: PhD Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-negar-kamali.jpeg
+    link: https://negarkamali.github.io/
+  - name: Xudong Tang
+    role: PhD Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-xudong-tang.jpeg
+    link: https://www.linkedin.com/in/xudongtang75/
   - name: Dong Shu
     role: PhD Student
     department: Computer Science
@@ -56,9 +68,6 @@ alumni:
   - name: Dongping Zhang
     position: Research Scientist at Endeavor Health
     link: https://www.dpzhang.com/
-  - name: Fumeng Yang
-    position: Faculty at University of Maryland, College Park
-    link: https://www.fmyang.com/
   - name: Angelos Chatzimparmpas
     position: Faculty at Utrecht University
     link: https://www.angeloschatzimparmpas.com/
