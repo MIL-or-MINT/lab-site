@@ -87,10 +87,5 @@ title: "People"
         {% endif %}
       {% endfor %}
     </ul>
-    <ul class="people-list">
-      {% for person in site.data.people.alumni2 %}
-        <li><span class="name">{{person.name}}</span></li>
-      {% endfor %}
-    </ul>
   </div>
 </div>

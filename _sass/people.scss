@@ -75,29 +75,9 @@ article.people-item {
 }
 
 .alumni-list-wrap {
-  @media screen and (min-width: $xlg) {
-    display: flex;
-    flex-wrap: nowrap;
-
-    ul {
-      width: 50%;
-    }
-  }
-
-  @media screen and (max-width: $xlg) {
-    display: block;
-
-    ul {
-      width: 100%;
-    }
-
-    ul:last-of-type {
-      padding-top: 1rem;
-    }
-  }
-
   ul {
     display: block;
+    width: 100%;
     margin: 0;
     padding: 0;
 
