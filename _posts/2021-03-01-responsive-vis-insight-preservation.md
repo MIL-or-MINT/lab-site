@@ -2,7 +2,7 @@
 layout: paper
 category: paper responsive-visualization
 title: "An Automated Approach to Reasoning About Task-Oriented Insights in Responsive Visualization"
-authors: "Hyeok Kim, Ryan Rossi, Abhraneel Sarma, Dominik Moritz, and Jessica Hullman"
+authors: "Hyeok Kim, Ryan Rossi, Abhraneel Sarma, Dominik Moritz, Jessica Hullman"
 venue: "IEEE Trans. Vis. Compt. Graph. (Proc. INFOVIS) 2021"
 thumb: "assets/images/paper-thumb-responsive-vis-insight-preservation.png"
 banner: "assets/images/paper-banner-responsive-vis-insight-preservation.png"

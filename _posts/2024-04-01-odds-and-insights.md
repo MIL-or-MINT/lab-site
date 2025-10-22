@@ -2,7 +2,7 @@
 layout: paper
 category: paper
 title: "Odds and Insights: Decision Quality in Visual Analytics Under Uncertainty"
-authors: "Abhraneel Sarma, Xiaoying Pu, Yuan Cui, Eli T Brown, Michael Correll and Matthew Kay"
+authors: "Abhraneel Sarma, Xiaoying Pu, Yuan Cui, Eli T Brown, Michael Correll, Matthew Kay"
 venue: "ACM Human Factors in Computing Systems (CHI) 2024"
 thumb: "assets/images/paper-thumb-odds-and-insights.jpg"
 banner: "assets/images/paper-banner-odds-and-insights.jpg"

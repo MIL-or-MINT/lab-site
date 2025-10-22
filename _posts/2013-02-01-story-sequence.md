@@ -2,7 +2,7 @@
 layout: paper
 category: paper
 title: "A Deeper Understanding of Sequence in Narrative Visualization"
-authors: "Jessica Hullman, Steven Drucker, Nathalie Henry Riche, Bongshin Lee, Danyel Fisher,  Eytan Adar"
+authors: "Jessica Hullman, Steven Drucker, Nathalie Henry Riche, Bongshin Lee, Danyel Fisher, Eytan Adar"
 venue: "IEEE Trans. Vis. Compt. Graph. (Proc. INFOVIS) 2013"
 thumb: "assets/images/paper-thumb-story-sequence.png"
 banner: "assets/images/paper-banner-story-sequence.png"

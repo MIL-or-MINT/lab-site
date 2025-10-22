@@ -2,7 +2,7 @@
 layout: paper
 category: paper
 title: "More Forecasts, More (Decision) Problems: How Uncertainty Representations for Multiple Forecasts Impact Decision-Making"
-authors: "Abhraneel Sarma, Maryam Hedayati, and Matthew Kay"
+authors: "Abhraneel Sarma, Maryam Hedayati, Matthew Kay"
 venue: "ACM Human Factors in Computing Systems (CHI) 2025"
 thumb: "assets/images/paper-thumb-more-and-more.png"
 banner: "assets/images/paper-banner-more-and-more.png"

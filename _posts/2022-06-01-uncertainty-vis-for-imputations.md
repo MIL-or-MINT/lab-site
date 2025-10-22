@@ -2,7 +2,7 @@
 layout: paper
 category: paper
 title: "Evaluating the Use of Uncertainty Visualisations forImputations of Data Missing At Random in Scatterplots"
-authors: "Abhraneel Sarma, Shunan Guo, Jane Hoffswell, Ryan Rossi, Fan Du, Eunyee Koh, and Matthew Kay"
+authors: "Abhraneel Sarma, Shunan Guo, Jane Hoffswell, Ryan Rossi, Fan Du, Eunyee Koh, Matthew Kay"
 venue: "IEEE Trans. Vis. Compt. Graph. (Proc. INFOVIS) 2022"
 thumb: "assets/images/paper-thumb-uncertainty-vis-for-imputations.png"
 banner: "assets/images/paper-banner-uncertainty-vis-for-imputations.png"

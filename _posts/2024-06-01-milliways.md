@@ -2,7 +2,7 @@
 layout: paper
 category: paper
 title: "Milliways: Taming Multiverses through Principled Evaluation of Data Analysis Paths"
-authors: "Abhraneel Sarma, Kyle Hwang, Jessica Hullman and Matthew Kay"
+authors: "Abhraneel Sarma, Kyle Hwang, Jessica Hullman, Matthew Kay"
 venue: "ACM Human Factors in Computing Systems (CHI) 2024"
 thumb: "assets/images/paper-thumb-milliways.png"
 banner: "assets/images/paper-banner-milliways.jpg"
