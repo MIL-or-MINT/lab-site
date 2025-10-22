@@ -7,7 +7,7 @@ venue: "ACM Human Factors in Computing Systems (CHI) 2024"
 thumb: "assets/images/paper-thumb-milliways.png"
 banner: "assets/images/paper-banner-milliways.jpg"
 caption: "The Milliways interface consists of four panels to support the multiverse analysis tasks and a principled evaluation of the multiverse analysis. The outcome panel (A1) presents the results of the multiverse—for each universe in the multiverse, we show the outcome. The specification panel (A2) reveals the options for each parameter which the universe is composed of. The code panel (A3) presents the code that was used to construct the multiverse (here, the code was from the multiverse R library). The data panel (A4) shows the dataset used in the analysis. Other elements include the add button to add additional outcome variables (A5) , exclude button to remove options of a parameter (A6) , link button to link (aggregate) the outcomes across two or more options (A7) , slider for hierarchical sorting based on average effect (A8) and the zoom toggle (A9)."
-pdf: "assets/papers/2023-milliways.pdf"
+pdf: "assets/papers/2024-milliways.pdf"
 ---
 
 <!-- abstract -->
