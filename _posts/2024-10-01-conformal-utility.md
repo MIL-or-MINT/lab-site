@@ -23,12 +23,13 @@ As deep neural networks are more commonly deployed in high-stakes domains, their
 <!-- bibtex -->
 <h4>BibTeX</h4>
 <pre>
-@inproceedings{guo2024decision,
-  title={A decision theoretic framework for measuring AI reliance},
-  author={Guo, Ziyang and Wu, Yifan and Hartline, Jason D and Hullman, Jessica},
-  booktitle={Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency},
-  pages={221--236},
-  year={2024}
+@inproceedings{zhang2024evaluating,
+  title={Evaluating the utility of conformal prediction sets for ai-advised image labeling},
+  author={Zhang, Dongping and Chatzimparmpas, Angelos and Kamali, Negar and Hullman, Jessica},
+  booktitle={Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},
+  pages={1--19},
+  year={2024},
+  doi={https://doi.org/10.1145/3613904.3642446}
 }
 </pre>
 </div>
