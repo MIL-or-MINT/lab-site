@@ -1,6 +1,6 @@
 # MU Collective Website
 
-This is (currently) an in-progress repo for Jessica's lab site. This website is built on `Jekyll`.
+This is currently an in-progress repo for Jessica's lab site. This website is built on `Jekyll`.
 
 ## Staff
 
