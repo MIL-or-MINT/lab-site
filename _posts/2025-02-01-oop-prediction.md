@@ -2,7 +2,7 @@
 layout: paper
 category: paper
 title: "Improving out-of-population prediction: The complementary effects of model assistance and judgmental bootstrapping"
-authors: "Mathew D. Hardy and Sam Zhang and Jessica Hullman and Jake M. Hofman and Daniel G. Goldstein"
+authors: "Mathew D. Hardy, Sam Zhang, Jessica Hullman, Jake M. Hofman, and Daniel G. Goldstein"
 venue: "International Journal of Forecasting"
 thumb: "assets/images/paper-thumb-oop-prediction.png"
 banner: "assets/images/paper-banner-oop-prediction.png"
