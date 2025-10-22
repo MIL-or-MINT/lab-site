@@ -218,7 +218,7 @@ You only need to edit `_data/talk.yml` file.
 
 Take a look on [this document for installing and configuring](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [this document for testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
-### How to run it locally
+### How to run it locally #TODO
 
 1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview:
    a. `brew install ruby-install chruby`.  
