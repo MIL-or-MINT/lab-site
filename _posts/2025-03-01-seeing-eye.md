@@ -1,8 +1,8 @@
 ---
 layout: paper
 category: paper
-title: "Improving out-of-population prediction: The complementary effects of model assistance and judgmental bootstrapping"
-authors: "Mathew D. Hardy and Sam Zhang and Jessica Hullman and Jake M. Hofman and Daniel G. Goldstein"
+title: "Seeing Eye to AI? Applying Deep-Feature-Based Similarity Metrics to Information Visualization"
+authors: "Sheng Long, Angelos Chatzimparmpas, Emma Alexander, Matthew Kay, Jessica Hullman"
 venue: "ACM Human Factors in Computing Systems (CHI) 2025"
 thumb: "assets/images/paper-thumb-seeing-eye.png"
 banner: "assets/images/paper-banner-seeing-eye.png"
