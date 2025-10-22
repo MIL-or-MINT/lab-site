@@ -23,19 +23,11 @@ Scientists often use meta-analysis to characterize the impact of an intervention
 <h4>BibTeX</h4>
 <pre>
 @inproceedings{kale2023metaexplorer,
-	title        = {Metaexplorer: Facilitating reasoning with epistemic uncertainty in meta-analysis},
-	author       = {Kale, Alex and Lee, Sarah and Goan, Terrance and Tipton, Elizabeth and Hullman, Jessica},
-	year         = {2023},
-	booktitle    = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
-	doi          = {https://doi.org/10.1145/3544548.358086},
+  title={Metaexplorer: Facilitating reasoning with epistemic uncertainty in meta-analysis},
+  author={Kale, Alex and Lee, Sarah and Goan, Terrance and Tipton, Elizabeth and Hullman, Jessica},
+  booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+  pages={1--14},
+  year={2023}
 }
 </pre>
-</div>
-
-<div class="apa">
-<!-- apa -->
-<h4>APA</h4>
-<p class="citation">
-Kale, A., Lee, S., Goan, T., Tipton, E., & Hullman, J. (2023, April). Metaexplorer: Facilitating reasoning with epistemic uncertainty in meta-analysis. In <em>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems</em> (pp. 1-14).
-</p>
 </div>
