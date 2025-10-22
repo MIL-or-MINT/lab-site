@@ -23,11 +23,11 @@ There are myriad ways to analyze any given dataset. But which one to trust? In t
 <h4>BibTeX</h4>
 <pre>
 @inproceedings{sarma2023multiverse,
-	title        = {multiverse: Multiplexing alternative data analyses in R notebooks},
-	author       = {Sarma, Abhraneel and Kale, Alex and Moon, Michael Jongho and Taback, Nathan and Chevalier, Fanny and Hullman, Jessica and Kay, Matthew},
-	booktitle    = {Proceedings of the 2023 CHI conference on human factors in computing systems},
-	pages        = {1--15},
-	year         = {2023}
+  title={multiverse: Multiplexing alternative data analyses in R notebooks},
+  author={Sarma, Abhraneel and Kale, Alex and Moon, Michael Jongho and Taback, Nathan and Chevalier, Fanny and Hullman, Jessica and Kay, Matthew},
+  booktitle={Proceedings of the 2023 CHI conference on human factors in computing systems},
+  pages={1--15},
+  year={2023}
 }
 </pre>
 </div>
