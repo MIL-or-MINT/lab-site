@@ -24,23 +24,23 @@ The 2025 master is **Dongping Zhang**.
 
 For site maintaince and update, the web master should only need to touch three project directories: `_data`, `_posts`, and `assets`. After your edits, wait for a few minutes and check out [#TODO Site](#TODO TBD) and you should be able to see the updates.
 
-### Modify the Publications Page :page_facing_up:
+### 1. Modify the Publications Page :page_facing_up:
 
 To make changes to the `Publications` page, the web master should first collect the required assets from the main author, which includes: (1). a thumbnail, (2) a banner/teaser **with caption** (**with html adjustment/format**), (3)the abstract (**with html adjustment/format**) and (4) the paper pdf. Once these assets are collected, you should pay attention to two directories: `_posts` and `assets`.
 
 You should start by giving each new paper a **unique**, **concise**, and **professional** ID. The following tutorial will be using `awesome-paper` an a running example ID.
 
-#### Rename and Upload the Paper Assets to `assets/`
+#### 1.1 Rename and Upload the Paper Assets to `assets/`
 
 1. The **thumbnail** works the best to have a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px). You **must** name it as `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp` and upload it to `assets/images/`.
 2. The **banner/teaser** should have its width be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters. You **must** name it as `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp` and upload it to `assets/images/`.
 3. The **paper PDF** **must** be named as `yyyy-awesome-paper.pdf` and upload it to `assets/papers/`.
 
-#### Create/Modify a `md` file to `_posts/`
+#### 1.2 Create/Modify a `md` file to `_posts/`
 
 The `_post` dir stores different `md` files, each of which serves as the entry to render unique paper page. To add a new paper, you create a new `md` file in `_post` and **must** name it as: `yyyy-mm-dd-[awesome]-[paper].md`. The month and date aren't important and you can use ascending numerical values for easier ordering of files (e.g., 2025-01-01, 2025-02-01, etc.).
 
-A toy example belows demonstrate the content of the `md` file. You can copy it as your template file. **Please read the example carefully before editing to make sure formatting is consistent and professional**.
+A toy example below demonstrate the content of the `md` file. You can copy it as your template file. **Please read the example carefully before editing to make sure formatting is consistent and professional**.
 
 ```{yaml}
 ---
@@ -95,83 +95,28 @@ Some clarifications:
   - As long as you have DOI, details other than authors, year, title, venue are not required.
   - For Bibtex, use [this tool](https://flamingtempura.github.io/bibtex-tidy/index.html) to standardize.
 
-### Add a new [person](https://mucollective.github.io/people) :frowning_person
+### 2. Modify the Person Page :frowning_person:
 
-`[for everyone]` You need to prepare the followings:
+The web master should collect the following asset from the individual:
 
-- A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?) You must follow the naming style `people-...`.
+- A 1x1 headshot **must** be named as `people-first-last.png|jpg|jpeg|gif|bmp` and uploaded to `assets/images`.
+- A personal website link (or LinkedIn)
 
-You only have to **edit** `_data/people.yml` file and upload the image to `assets/images`.
-
-`[for everyone]` An example:
+Then, you need to **edit** `_data/people.yml` file. A toy example below demonstrate the content.
 
 ```{yaml}
   - name: Jessica Hullman
-    role: Ginni Rometty Associate Professor
+    role: Ginni Rometty Professor
     department: Computer Science
     school: Northwestern University
     image: assets/images/people-jessica-hullman.jpeg
     link: http://users.eecs.northwestern.edu/~jhullman/
-
 ```
 
-Explanation:
+Some clarifications:
 
 - For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
 - For alumni, you should provide their `name`, current `position`, and website url (`link`).
-
-### Add or edit a [public release](https://mucollective.github.io/public-release) :earth_americas
-
-`[for everyone]` You need to prepare the followings:
-
-- URLs to your release.
-- The categories of your releases: software, prototype, or something else. Examples are listed below.
-
-There are two files `_data/prototype.yml` and `_data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory.
-
-An example from `_data/prototype.yml`:
-
-```{yaml}
-- title: Cicero
-  contributor: Hyeok Kim
-  type: JS library
-  supplement:
-    - type: Gallery
-      link: https://see-mike-out.github.io/cicero-supplemental/
-  description: Cicero is a declarative grammar for responsive visualization transformatons.
-```
-
-An example from `_data/software.yml`:
-
-```{yaml}
- title: ggidst
-  contributor: Matthew Kay
-  type: R package
-  supplement:
-    - type: Documentation
-      link: https://mjskay.github.io/ggdist/
-    - type: Code Repository
-      link: https://github.com/mjskay/ggdist
-    - type: CRAN
-      link: https://cloud.r-project.org/web/packages/ggdist/index.html
-  description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
-```
-
-### Add or edit a [talk](https://mucollective.github.io/talks) :speech_balloon
-
-You only need to edit `_data/talk.yml` file.
-
-```{yaml}
-- title: Uncertainty visualization with tidybayes and ggdist
-  year: 2021
-  contributor: Matthew Kay
-  venue: Bayes@Lund
-  link: https://youtu.be/EtrmxMX8zWw
-```
-
-### Edit text on homepage on the top
-
-- Text on the top left section: `_data/home_text.yml`
 
 ## How to update (for developer)
 
