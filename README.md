@@ -4,7 +4,7 @@ This repository hosts the in-progress site for Jessica Hullman’s [#TODO lab-na
 
 > Note: If you are not a developer or the designated webmaster, you do not need to clone or modify this repository.
 
-## Staff
+## :busts_in_silhouette: Staff
 
 Hyeok Kim - rebuilding the template :man_technologist:
 
