@@ -1,77 +1,75 @@
 # MU Collective Website
 
-This is currently an in-progress repo for Jessica's lab site. This website is built on `Jekyll`.
+This is currently an in-progress repo for Jessica's #TODO [lab-name] site. Our lab site is built on `Jekyll` and this repo stores all components (i.e., images, paper pdf, metadata, etc.).
+
+**If you are not a developer or not the web master of the year, you should not need a local setup and not need to access this repo.**
 
 ## Staff
 
-Hyeok Kim - rebuilding the template :man_technologist:.
+Hyeok Kim - rebuilding the template :man_technologist:
 
-Lily Ge - building the individual md files and managing the website after it is done :woman_pilot:.
+Lily Ge - building the individual md files and managing the website after it is done :woman_pilot:
 
-Fumeng Yang - writing documentation & nudging style :woman_juggling:.
+Fumeng Yang - writing documentation & nudging style :woman_juggling:
 
-Dongping Zhang - standing on the shoulders of these giants and put the final nail in the coffin :hammer:.
+Dongping Zhang - standing on the shoulders of these giants and put the final nail in the coffin :hammer:
 
-## How to update (for everyone)
+## Before You Start
 
-First, you should find the information you need to prepare on this page (looking for `[for everyone]` notation).
+During each academic year, a lab member will be appointed as the web master, responsible to update the site in a timely manner. The others lab members should send update request to the web master via the Slack channel `#logo-and-website` (e.g., @) or via DM.
 
-Second, you send them to the master person in the Slack channel `#logo-and-website` (e.g., @) or via DM. The 2025 master is **Dongping Zhang**.
+The 2025 master is **Dongping Zhang**.
 
-## How to update (for the master person)
+## How to update
 
-Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a developer, you should not need a local setup.
+For site maintaince and update, the web master should only need to touch three project directories: `_data`, `_posts`, and `assets`. After your edits, wait for a few minutes and check out [#TODO Site](#TODO TBD) and you should be able to see the updates.
 
-In sum, you only need to touch `_data`, `_posts`, and `assets`. **Hyeok: "If you are touching anything else, it means you are doing something wrong."**
+### Modify the Publications Page :page_facing_up:
 
-After your edits, wait for a few minutes and check out [#TODO Site](#TODO TBD) and you should be able to see the updates.
+To make changes to the `Publications` page, the web master should first collect the required assets from the main author, which includes: (1). a thumbnail, (2) a banner/teaser **with caption** (**with html adjustment/format**), (3)the abstract (**with html adjustment/format**) and (4) the paper pdf. Once these assets are collected, you should pay attention to two directories: `_posts` and `assets`.
 
-### Add a [paper](https://mucollective.github.io/publications) :page_facing_up
+You should start by giving each new paper a **unique**, **concise**, and **professional** ID. The following tutorial will be using `awesome-paper` an a running example ID.
 
-The two folders you have to pay attention to are:
+#### Rename and Upload the Paper Assets to `assets/`
 
-- `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper.
-- `assets`: This folder provides the actual thumbnails and PDFs.
+1. The **thumbnail** works the best to have a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px). You **must** name it as `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp` and upload it to `assets/images/`.
+2. The **banner/teaser** should have its width be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters. You **must** name it as `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp` and upload it to `assets/images/`.
+3. The **paper PDF** **must** be named as `yyyy-awesome-paper.pdf` and upload it to `assets/papers/`.
 
-`[for everyone]` To add a paper, you need to prepare the followings:
+#### Create/Modify a `md` file to `_posts/`
 
-- **a unique ID**: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
-- **a `.md` file** (see below) that will be uploaded to `_posts` : you **must** name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values. The master person prepares this file.
-- **the paper PDF** that will be uploaded to `assets/papers/`: you **must** name it `yyyy-awesome-paper.pdf`
-- **a teaser/banner** that will be uploaded to `assets/images/`: you **must** name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters.
-- **a thumbnail** that will be uploaded to `assets/images/`: you **must** name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. We strongly suggest to use a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px).
-<!-- The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule such that we don't have to run resize scripts for you!) -->
-- authors, abstract, venue, year, awards
-- other links you want to show and their names
+The `_post` dir stores different `md` files, each of which serves as the entry to render unique paper page. To add a new paper, you create a new `md` file in `_post` and **must** name it as: `yyyy-mm-dd-[awesome]-[paper].md`. The month and date aren't important and you can use ascending numerical values for easier ordering of files (e.g., 2025-01-01, 2025-02-01, etc.).
 
-#### The `.md` file
-
-This file **must** be called `yyyy-mm-dd-awesome-paper.md` It provides entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
-
-A toy example is below. You can copy it as your template file. (`[for everyone]` Here, you can get a sense of what information you need to prepare, but the master person will prepare the `.md`.)
+A toy example belows demonstrate the content of the `md` file. You can copy it as your template file. **Please read the example carefully before editing to make sure formatting is consistent and professional**.
 
 ```{yaml}
 ---
 layout: paper
 category: paper
-title:  "This is an awesome paper"
-authors: "Author 1, Author 2, Author 3"
-venue: "The Lucky Conference/Journal"x
-thumb: "assets/images/paper-thumb-awesome-paper.png"
-banner: "assets/images/paper-banner-awesome-paper.png"
-caption: "The caption for the banner/teaser."
-pdf: "assets/papers/yyyy-mm-dd-awesome-paper.pdf"
-bestPaper: true
-honorable: false
-github: "github.com/awesome"
-supplementary: "https://osf.io/awesome/"
+title:  ["Copy and paste the paper title"]
+authors: ["Author 1, Author 2, Author 3 -- pay attention to the formatting: do not add an "and" before the last author"]
+venue: ["The Lucky Conference/Journal"]
+thumb: ["assets/images/paper-thumb-awesome-paper.png"]
+banner: ["assets/images/paper-banner-awesome-paper.png"]
+caption: ["The caption for the banner/teaser."]
+pdf: ["assets/papers/yyyy-mm-dd-awesome-paper.pdf"]
+bestPaper: [true]
+honorable: [false]
+github: ["github.com/awesome"]
+supplementary: ["https://osf.io/awesome/"]
 additionals:
-  - name: "Gallery"
-    link: "https://awesomepaper.com"
+  - name: ["Gallery"]
+    link: ["https://awesomepaper.com"]
+  - name: ["Package"]
+    link: ["https://github.com"]
+  - name: ["Documentation"]
+    link: ["https://documentation.com"]
+  - name: ["Online Editor"]
+    link: ["https://editor.com"]
 ---
 
 <!-- abstract -->
-This is our awesome paper published at the Lucky Conference.
+[Put abstract here with html formatting and adjustment]
 
 <h3><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
   <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
@@ -85,33 +83,17 @@ This is our awesome paper published at the Lucky Conference.
 }
 </pre>
 </div>
-
-<div class="apa">
-<!-- apa -->
-<h4>APA</h4>
-<p>APA FORMAT STRING.</p>
-</div>
 ```
 
-Explanation:
+Some clarifications:
 
-- **layout: paper** - this must be `paper`.
-- **category: paper** - This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`.
-- **title...pdf** - ordinary stuff. Notice that you must follow the naming style!
-- (optional) **bestPaper** and **honorable** - true or false. You can also skip it.
-- (optional) **github** and **supplementary** - You can also skip it.
-- (optional) **additionals** - additional links and a name to show. You can also skip it.
-- To get citation: access the original publisher's website to get the Bibtex (strongly recommended) and APA format (optional).
+- **author**: pay attention to the formatting and do not add an "and" before the last author.
+- **bestPaper** and **honorable**: falg it as true or false. If the paper has no award, you can omit.
+- **github** and **supplementary**: most paper will include github/supplemental materials, but can omit if none.
+- **additionals**: additional links and a name to show in nested list format (e.g., package link or documentations with link). You can omit if none.
+- To get citation: access the original publisher's website to get the Bibtex (strongly recommended).
   - As long as you have DOI, details other than authors, year, title, venue are not required.
   - For Bibtex, use [this tool](https://flamingtempura.github.io/bibtex-tidy/index.html) to standardize.
-
-Now,
-
-- upload `yyyy-mm-dd-awesome-paper.md` to `_posts`
-- upload `yyyy-awesome-paper.pdf` to `assets/papers`
-- upload `paper-banner-awesome-paper.png` and `paper-thumb-awesome-paper.png` to `assets/images`
-
-You are all set.
 
 ### Add a new [person](https://mucollective.github.io/people) :frowning_person
 
@@ -137,27 +119,6 @@ Explanation:
 
 - For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
 - For alumni, you should provide their `name`, current `position`, and website url (`link`).
-
-### Edit [research area](https://mucollective.github.io/research) :mortar_board
-
-You only need to edit `_data/research_areas.yml` file.
-
-An example:
-
-```{yaml}
-- name: Communicating unquantified uncertainty
-  category: unquant-uncertainty
-  desc: We aim at communicating unquantified uncertainty.
-  image:
-    - "assets/images/research-image-...."
-```
-
-Explanation:
-
-- **name** is the name to show in the list
-- **category** is the catergory, which will be used to match and grab papers.
-- **desc** is the description.
-- **image** is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
 
 ### Add or edit a [public release](https://mucollective.github.io/public-release) :earth_americas
 
