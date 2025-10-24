@@ -8,39 +8,64 @@ This repository hosts the in-progress site for Jessica Hullman’s [#TODO lab-na
 
 Hyeok Kim - rebuilding the template :man_technologist:
 
-Lily Ge - building the individual md files and managing the website after it is done :woman_pilot:
+Lily Ge - building individual `.md` files :pilot:
 
-Fumeng Yang - writing documentation & nudging style :woman_juggling:
+Fumeng Yang - writing documentation & refining style :woman_juggling:
 
 Dongping Zhang - standing on the shoulders of these giants and put the final nail in the coffin :hammer:
 
-## Before You Start
+## :calendar: Before You Start
 
-During each academic year, a lab member will be appointed as the web master, responsible to update the site in a timely manner. The others lab members should send update request to the web master via the Slack channel `#logo-and-website` (e.g., @) or via DM.
+Each academic year, one lab member will serve as the webmaster, responsible for maintaining and updating the site.
+Other members should send update requests to the webmaster via the Slack channel #logo-and-website or by direct message.
 
-The 2025 master is **Dongping Zhang**.
+> The 2025 webmaster is Dongping Zhang.
 
-## How to update
+## :wrench: How to update
 
-For site maintaince and update, the web master should only need to touch three project directories: `_data`, `_posts`, and `assets`. After your edits, wait for a few minutes and check out [#TODO Site](#TODO TBD) and you should be able to see the updates.
+For site maintaince and content update, the webmaster will primarily work within three directories: `_data`, `_posts`, and `assets`.
 
-### 1. Modify the Publications Page :page_facing_up:
+After making edits, wait a few minutes and check the live site ([#TODO URL]) to verify that changes have propagated.
 
-To make changes to the `Publications` page, the web master should first collect the required assets from the main author, which includes: (1). a thumbnail, (2) a banner/teaser **with caption** (**with html adjustment/format**), (3)the abstract (**with html adjustment/format**) and (4) the paper pdf. Once these assets are collected, you should pay attention to two directories: `_posts` and `assets`.
+### 1. Updating the Publications Page :page_facing_up:
 
-You should start by giving each new paper a **unique**, **concise**, and **professional** ID. The following tutorial will be using `awesome-paper` an a running example ID.
+To update the `Publications` page, the webmaster should first collect these assets from the paper's lead author:
 
-#### 1.1 Rename and Upload the Paper Assets to `assets/`
+1. Thumbnail image
+2. Banner/teaser **with caption, formatted for HTML**
+3. Abstract with HTML formating
+4. Final paper pdf.
 
-1. The **thumbnail** works the best to have a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px). You **must** name it as `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp` and upload it to `assets/images/`.
-2. The **banner/teaser** should have its width be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters. You **must** name it as `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp` and upload it to `assets/images/`.
-3. The **paper PDF** **must** be named as `yyyy-awesome-paper.pdf` and upload it to `assets/papers/`.
+Updates mainly involve two directories: `_posts` and `assets`.
 
-#### 1.2 Create/Modify a `md` file to `_posts/`
+Each new paper requires a **unique**, **concise**, and **professional** ID. Example ID: `awesome-paper`.
 
-The `_post` dir stores different `md` files, each of which serves as the entry to render unique paper page. To add a new paper, you create a new `md` file in `_post` and **must** name it as: `yyyy-mm-dd-[awesome]-[paper].md`. The month and date aren't important and you can use ascending numerical values for easier ordering of files (e.g., 2025-01-01, 2025-02-01, etc.).
+#### 1.1 Upload the Paper Assets to `assets/`
 
-A toy example below demonstrate the content of the `md` file. You can copy it as your template file. **Please read the example carefully before editing to make sure formatting is consistent and professional**.
+1. **Thumbnail**
+
+   - Aspect ratio: 5 : 3
+   - Recommended width ≤ 300 px (ideal ≈ 200 × 120 px)
+   - Name format: `paper-thumb-awesome-paper.[png|jpg|jpeg|gif|bmp]`
+   - Upload to: `assets/images/`
+
+2. **Banner/Teaser**
+
+   - Max width ≈ 1200 px (avoid small text, since it scales down on mobile ≈ 400 px)
+   - Name format: `paper-banner-awesome-paper.[png|jpg|jpeg|gif|bmp]`
+   - Upload to: `assets/images/`
+
+3. **Paper PDF**
+   - Name format: `yyyy-awesome-paper.pdf`
+   - Upload to: `assets/papers/`
+
+#### 1.2 Create/Modify Markdown in `_posts/`
+
+Each `md` file serves as the entry to render unique paper page. To add a new paper, create a new `md` file in `_post` and **must** name it as: `yyyy-mm-dd-[awesome]-[paper].md`. The exact month and date are not important. Use ascending numerical values for easier ordering (e.g., 2025-01-01, 2025-02-01, etc.).
+
+The example below shows the recommended structure of a paper entry. You can copy it as a template.
+
+> Please review it carefully to ensure formatting and style remain consistent across pages.
 
 ```{yaml}
 ---
@@ -85,24 +110,24 @@ additionals:
 </div>
 ```
 
-Some clarifications:
+**Notes:**
 
-- **author**: pay attention to the formatting and do not add an "and" before the last author.
-- **bestPaper** and **honorable**: falg it as true or false. If the paper has no award, you can omit.
-- **github** and **supplementary**: most paper will include github/supplemental materials, but can omit if none.
-- **additionals**: additional links and a name to show in nested list format (e.g., package link or documentations with link). You can omit if none.
-- To get citation: access the original publisher's website to get the Bibtex (strongly recommended).
-  - As long as you have DOI, details other than authors, year, title, venue are not required.
-  - For Bibtex, use [this tool](https://flamingtempura.github.io/bibtex-tidy/index.html) to standardize.
+- **author**: ensure consistent formatting and do not include “and” before the last author.
+- **bestPaper** / **honorable**: falg it as `true` or `false`. If the paper received no award, you can omit these fields.
+- **github** / **supplementary**: include links if available (e.g., code repositories or supplemental materials); otherwise, omit.
+- **additionals**: optional list of extra resources with name and link pairs (e.g., documentation, gallery, or package links).
+- **citation**: obtain the BibTeX directly from the publisher’s website (recommended).
+  - As long as a DOI is provided, only authors, year, title, and venue are required.
+  - Use [this tool](https://flamingtempura.github.io/bibtex-tidy/index.html) to standardize formatting.
 
 ### 2. Modify the Person Page :frowning_person:
 
-The web master should collect the following asset from the individual:
+The webmaster should collect the following items from each individual:
 
-- A 1x1 headshot **must** be named as `people-first-last.png|jpg|jpeg|gif|bmp` and uploaded to `assets/images`.
-- A personal website link (or LinkedIn)
+- **Headshot**: a 1x1 image **must** be named as `people-first-last.png|jpg|jpeg|gif|bmp` and uploaded to `assets/images`.
+- **Personal link**: a website or LinkedIn profile.
 
-Then, you need to **edit** `_data/people.yml` file. A toy example below demonstrate the content.
+Next, **edit** `_data/people.yml` file with an entry like:
 
 ```{yaml}
   - name: Jessica Hullman
@@ -113,12 +138,12 @@ Then, you need to **edit** `_data/people.yml` file. A toy example below demonstr
     link: http://users.eecs.northwestern.edu/~jhullman/
 ```
 
-Some clarifications:
+**Notes:**
 
-- For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
-- For alumni, you should provide their `name`, current `position`, and website url (`link`).
+- For **faculty / student**, include `name`, `role` (e.g., professor, PhD student, post doc, etc), `department`, `school`, `image`, and `link`.
+- For **alumni**, include `name`, current `position`, and `link`.
 
-## How to update (for developer)
+## :computer: Developer Setup
 
 ### Prerequisites
 
