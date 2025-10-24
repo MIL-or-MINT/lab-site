@@ -8,7 +8,7 @@ thumb: "assets/images/paper-thumb-conformal-utility.png"
 banner: "assets/images/paper-banner-conformal-utility.png"
 caption: "Overview diagram of our key experimental manipulations: (1) Five different covariate shifts are imposed through synthetic image corruption to create five replications of the conformal hold-out set, each containing images that are out-of-distribution (OOD). (2) Images in each conformal hold-out set are categorized by the classifier's prediction confidence for difficulty and the size of the derived set. Ten task images representative of the categories used to define each group are selected. (3) Participants label 16 task images sampled from 80 candidate images: four in-distribution and 12 OOD, balanced by difficulty and set size, presented in randomized order. (4) Based on the conditions assigned, participants may complete labeling tasks without predictions (i.e., <span style='color:#4E79A7; font-weight:bold'>baseline</span>) or with access to prediction displays that vary in the content provided by uncertainty quantification (i.e., <span style='color:#F28E2B; font-weight:bold'>Top-1</span>, <span style='color:#E15759; font-weight:bold'>Top-10</span>, or <span style='color:#76B7B2; font-weight:bold'>prediction set</span>)."
 pdf: "assets/papers/2024-conformal-utility.pdf"
-supplementary: "https://github.com/dpzhang/conformal-prediction-utility"
+github: "https://github.com/dpzhang/conformal-prediction-utility"
 honorable: true
 ---
 
