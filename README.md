@@ -46,26 +46,26 @@ A toy example below demonstrate the content of the `md` file. You can copy it as
 ---
 layout: paper
 category: paper
-title:  ["Copy and paste the paper title"]
-authors: ["Author 1, Author 2, Author 3 -- pay attention to the formatting: do not add an "and" before the last author"]
-venue: ["The Lucky Conference/Journal"]
-thumb: ["assets/images/paper-thumb-awesome-paper.png"]
-banner: ["assets/images/paper-banner-awesome-paper.png"]
-caption: ["The caption for the banner/teaser."]
-pdf: ["assets/papers/yyyy-mm-dd-awesome-paper.pdf"]
-bestPaper: [true]
-honorable: [false]
-github: ["github.com/awesome"]
-supplementary: ["https://osf.io/awesome/"]
+title:  "Copy and paste the paper title"
+authors: "Author 1, Author 2, Author 3 -- pay attention to the formatting: do not add an "and" before the last author"
+venue: "The Lucky Conference/Journal"
+thumb: "assets/images/paper-thumb-awesome-paper.png"
+banner: "assets/images/paper-banner-awesome-paper.png"
+caption: "The caption for the banner/teaser."
+pdf: "assets/papers/yyyy-mm-dd-awesome-paper.pdf"
+bestPaper: true
+honorable: false
+github: "github.com/awesome"
+supplementary: "https://osf.io/awesome/"
 additionals:
-  - name: ["Gallery"]
-    link: ["https://awesomepaper.com"]
-  - name: ["Package"]
-    link: ["https://github.com"]
-  - name: ["Documentation"]
-    link: ["https://documentation.com"]
-  - name: ["Online Editor"]
-    link: ["https://editor.com"]
+  - name: "Gallery"
+    link: "https://awesomepaper.com"
+  - name: "Package"
+    link: "https://github.com"
+  - name: "Documentation"
+    link: "https://documentation.com"
+  - name: "Online Editor"
+    link: "https://editor.com"
 ---
 
 <!-- abstract -->
