@@ -1,8 +1,8 @@
-# MU Collective Website
+# Model Interactions Lab Website
 
-This is currently an in-progress repo for Jessica's #TODO [lab-name] site. Our lab site is built on `Jekyll` and this repo stores all components (i.e., images, paper pdf, metadata, etc.).
+This repository hosts the in-progress site for Jessica Hullman’s [#TODO lab-name]. Our lab site is built with `Jekyll` and this repo stores all supporting assets (e.g., images, paper PDFs, metadata, etc.).
 
-**If you are not a developer or not the web master of the year, you should not need a local setup and not need to access this repo.**
+> Note: If you are not a developer or the designated webmaster, you do not need to clone or modify this repository.
 
 ## Staff
 
