@@ -8,7 +8,7 @@ This repository hosts the in-progress site for Jessica Hullman’s [#TODO lab-na
 
 Hyeok Kim - rebuilding the template :man_technologist:
 
-Lily Ge - building individual `.md` files :pilot:
+Lily Ge - building individual `.md` files :woman_technologist:
 
 Fumeng Yang - writing documentation & refining style :woman_juggling:
 
