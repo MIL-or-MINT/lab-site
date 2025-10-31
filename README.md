@@ -1,4 +1,4 @@
-# Model Interactions Lab Website
+# Model Decisions (MODE) Lab Website
 
 This repository hosts the in-progress site for Jessica Hullman’s [#TODO lab-name]. Our lab site is built with `Jekyll` and this repo stores all supporting assets (e.g., images, paper PDFs, metadata, etc.).
 
