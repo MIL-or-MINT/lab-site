@@ -1,6 +1,6 @@
 # Model Decisions (MODE) Lab Website
 
-This repository hosts the in-progress site for Jessica Hullman’s [#TODO lab-name]. Our lab site is built with `Jekyll` and this repo stores all supporting assets (e.g., images, paper PDFs, metadata, etc.).
+This repository hosts the in-progress site for Jessica Hullman's **Mo**del **De**cisions (MODE) Lab. Our lab site is built with `Jekyll` and this repo stores all supporting assets (e.g., images, paper PDFs, metadata, etc.).
 
 > Note: If you are not a developer or the designated webmaster, you do not need to clone or modify this repository.
 
